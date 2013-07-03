@@ -24,6 +24,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 2.0'
 end
 
+gem "twitter-bootstrap-rails"
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
