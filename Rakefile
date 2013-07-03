@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-RailsFork::Application.load_tasks
+Railstoolchain::Application.load_tasks

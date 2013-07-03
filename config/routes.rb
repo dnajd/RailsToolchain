@@ -1,4 +1,4 @@
-RailsFork::Application.routes.draw do
+Railstoolchain::Application.routes.draw do
   get "welcome/index"
 
   # The priority is based upon order of creation:
