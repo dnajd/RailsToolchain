@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+require 'rbconfig'
 
 gem 'rails', '3.2.12'
 
@@ -25,6 +26,7 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'spork', '~> 0.9.0.rc'
   gem 'guard-spork'
+  gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
 end
 
 gem "twitter-bootstrap-rails"
