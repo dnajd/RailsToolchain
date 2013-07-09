@@ -62,6 +62,7 @@ module Railstoolchain
     config.generators do |g|
       g.view_specs false
       g.helper_specs false
+      g.test_framework  :rspec
     end
   end
 end

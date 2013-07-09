@@ -11,10 +11,11 @@ Bootstrap
 
 * https://github.com/seyhunak/twitter-bootstrap-rails
 
-Rspec & Factory Girl
+Rspec, Factory Girl & Mocha
 
 * https://github.com/rspec/rspec-rails
 * https://github.com/thoughtbot/factory_girl_rails
+* https://github.com/freerange/mocha
 
 Spork & Guard
 
