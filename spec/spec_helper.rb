@@ -48,6 +48,8 @@ Spork.prefork do
       config.filter_run :focus => true
       config.run_all_when_everything_filtered = true
     end
+
+    require "mocha/setup"
 end
 
 Spork.each_run do

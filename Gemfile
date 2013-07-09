@@ -23,7 +23,7 @@ end
 group :development, :test do
   gem 'rspec-rails', '~> 2.0'
   gem 'factory_girl_rails'
-  gem "mocha"
+  gem "mocha", :require => false
   gem 'guard-rspec'
   gem 'spork', '~> 0.9.0.rc'
   gem 'guard-spork'
